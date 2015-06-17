@@ -1,0 +1,12 @@
+Explanation of Project:: 
+
+	Our project basically uses both these information and aims at detecting and preventing these kinds of attack that’s happening in the field of networking. With the help of Pluribus Network Switch, certain commands are run in the switch remotely using Pluribus Netvisor Command Line Interface and the data is retrieved. This data is analyzed to check for possible DDoS attack and if it is found to be such a case then further prevention techniques are used where the IP address that is causing this attack is blocked and an e-mail is sent to the switch admin regarding the same.
+
+	We make use of different OS functions available in Python-language to connect to a remotely available server switch and other techniques like pipe execution of shell commands to run commands in the switch. 
+
+	We make use of a real time switch in which we run this software which runs commands in the switch retrieves data from the switch and analyses the data to check for attack and takes action. 
+
+Explanation of Program::
+
+	Initially user is asked to input his E-mail ID, along with that he has to enter the switch details, i.e. switch IP address, its username and password. After entering the details and he has to press ‘Secure Switch’ button on which he is taken to a state of forever checking state. In this state the program always checks for DDoS attack and if there is no attack then it re-checks for attack after 5 seconds. 
+	Otherwise if an attack is detected then it goes to a state where the corresponding IP address is blocked and an email is sent to the Switch admin email ID. The checking process then continues after 5 seconds the whole process continues.

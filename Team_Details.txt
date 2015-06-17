@@ -1,0 +1,7 @@
+Group-number: G19
+Mini-Project title: DDOS attack detection and prevention in Pluribus Switch
+Team members: Akshay Adiga-1PI12IS009
+              Prajwal P Vasisht-1PI12IS073
+Guide name: Prof. Malashree s
+
+
